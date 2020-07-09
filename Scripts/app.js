@@ -41,11 +41,11 @@
             let email = document.getElementById("email").value;
             let yourMessage = document.getElementById("yourMessage").value;
             
-            console.log("First Name: " + firstName);
-            console.log("Last Name: " + lastName);
-            console.log("Contact Number: " + contactNumber);
-            console.log("Email: " + email);
-            console.log("Message: " + yourMessage);
+            console.log(`%cFirst Name    : ${firstName}`, "background-color: #E0F8FA; color: #AD5204; font-size: 2em;");
+            console.log(`%cLast Name     : ${lastName}`, "background-color: #E0F8FA; color: #AD5204; font-size: 2em;");
+            console.log(`%cContact Number: ${contactNumber}`, "background-color: #E0F8FA; color: #AD5204; font-size: 2em;");
+            console.log(`%cEmail         : ${email}`, "background-color: #E0F8FA; color: #AD5204; font-size: 2em;");
+            console.log(`%cMessage       : ${yourMessage}`, "background-color: #E0F8FA; color: #AD5204; font-size: 2em;");
         });
         
     }
