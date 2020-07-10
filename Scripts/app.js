@@ -47,21 +47,21 @@
             event.preventDefault();
 
             //gets the value entered by the user for each field and assigns them to variables
-            let firstName = document.getElementById("firstName");
-            let lastName = document.getElementById("lastName");
-            let contactNumber = document.getElementById("contactNumber");
-            let email = document.getElementById("email");
-            let yourMessage = document.getElementById("yourMessage");
+            let firstName = document.getElementById("firstName").value;
+            let lastName = document.getElementById("lastName").value;
+            let contactNumber = document.getElementById("contactNumber").value;
+            let email = document.getElementById("email").value;
+            let yourMessage = document.getElementById("yourMessage").value;
             
             //style applied for the console.log messages
             let styler = "background-color: #E0F8FA; color: #AD5204; font-size: 2em; font-family: Algerian;";
 
             //code to output to browser console
-            console.log(`%cFirst Name           : ${firstName.value}`, styler);
-            console.log(`%cLast Name            : ${lastName.value}`, styler);
-            console.log(`%cContact Number: ${contactNumber.value}`, styler);
-            console.log(`%cEmail                      : ${email.value}`, styler);
-            console.log(`%cMessage                : ${yourMessage.value}`, styler);
+            console.log(`%cFirst Name           : ${firstName}`, styler);
+            console.log(`%cLast Name            : ${lastName}`, styler);
+            console.log(`%cContact Number: ${contactNumber}`, styler);
+            console.log(`%cEmail                      : ${email}`, styler);
+            console.log(`%cMessage                : ${yourMessage}`, styler);
             
             //resets after all the above has been done to signify submission occurred
             contactForm.reset();
