@@ -6,7 +6,7 @@
 /*implementation of smooth scrolling*/
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 49.5px;
+    scroll-padding-top: 49.25px;
 }
 .navbar {
     opacity: 0.8;
